@@ -7,9 +7,8 @@ const Widget = styled.div`
   background-color: ${({ theme }) => theme.colors.mainBg};
   border-radius: 4px;
   overflow: hidden;
-  h1,
-  h2,
-  h3 {
+
+  h1, h2, h3 {
     font-size: 16px;
     font-weight: 700;
     line-height: 1;
@@ -28,7 +27,7 @@ Widget.Header = styled.header`
   align-items: center;
   padding: 18px 32px;
   background-color: ${({ theme }) => theme.colors.primary};
-
+  
   * {
     margin: 0;
   }
@@ -57,12 +56,12 @@ Widget.Topic = styled.a`
   margin-bottom: 8px;
   cursor: pointer;
   border-radius: ${({ theme }) => theme.borderRadius};
-  transition: 0.3s;
+  transition: .3s;
   display: block;
-
+  
   &:hover,
   &:focus {
-    opacity: 0.5;
+    opacity: .5;
   }
 `;
 
